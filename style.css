@@ -1,0 +1,30 @@
+/* elemen selector */
+p {
+  color: blue;
+  font-size: 20px;
+}
+
+/* class selector */
+.highlight {
+  background-color: pink;
+  color: black;
+  border: 12px solid blue;
+}
+
+/* id selector */
+#main_para {
+  font-size: 2rem;
+  color: hotpink;
+  background-color: #ffd700;
+}
+
+/* attribute selector */
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+/* pseudo-classes */
+a:hover {
+  color: red;
+  background-color: aquamarine;
+}
